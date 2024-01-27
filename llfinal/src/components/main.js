@@ -15,10 +15,14 @@ function Main() {
         <div id="special2"><h4>Bruchetta</h4><p>Grilled bread that has been smeared with garlic</p></div>
         <div id="special3"><h4>Lemon Dessert</h4>A lemon cake with a bunch of sugar and stuff</div>
         <div id="testimonial"><h3>Testimonials</h3></div>
-        <div id="testimonial1"></div>
-        <div id="testimonial2"></div>
-        <div id="testimonial3"></div>
-        <div id="testimonial4"></div>
+        <div id="testimonial1"><h5>Rating</h5><p>Name</p><p>Review Text</p></div>
+        <div id="testimonial2"><h5>Rating</h5><p>Name</p><p>Review Text</p></div>
+        <div id="testimonial3"><h5>Rating</h5><p>Name</p><p>Review Text</p></div>
+        <div id="testimonial4"><h5>Rating</h5><p>Name</p><p>Review Text</p></div>
+        <div id="about"><h1>Little Lemon</h1>
+            <h3>Detroit</h3>
+            <p>The Little Lemon's greatest location located in the heart of dowtown Detroit. Right by Comerica Park and Ford Field.</p>
+            </div>
         </main>
 }
 
