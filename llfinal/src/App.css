@@ -44,9 +44,13 @@
   grid-column-gap: 1fr;
 }
 
+#headerlogo{
+  grid-column: 3/5;
+}
+
 #navbar{
-  grid-column-start: 4;
-  grid-column-end: 11;
+  grid-column-start: 5;
+  grid-column-end: 12;
 }
 
 #navlist{
@@ -55,7 +59,7 @@
 
 #navitem{
   display: inline;
-  padding: 1rem;
+  padding: 10px;
 }
 
 main{
@@ -70,19 +74,39 @@ main{
   grid-column-gap: 1fr;
 }
 
-#hero1{
-  grid-column: 1/8;
+#herobg{
+  background-color: #495E57;
+  grid-column: 1/13;
+  grid-row: 2/8;
+}
+
+#hero{
+  grid-column: 1/4;
   grid-row: 1/6;
 }
 
-#hero2{
-  grid-column: 1/4;
-  grid-row: 1/6;
+#heropicdiv{
+  padding-top: 25px;
+  grid-column: 6/12;
+  grid-row: 1/8;
+}
+
+#heropic{
+  width: 250px;
+  height: 300px;
+  border-radius: 10%;
 }
 
 #specials{
   grid-column: 1/4;
   grid-row: 8/9;
+}
+
+#specialpic{
+  width: 250px;
+  height: 200px;
+  border-top-left-radius: 5%;
+  border-top-right-radius: 5%;
 }
 
 #menubutton{
@@ -92,17 +116,23 @@ main{
 
 #special1{
   grid-column: 1/4;
-  grid-row: 10/16;
+  grid-row: 10/17;
+  background-color: #EDEFEE;
+  margin-right: 30px;
 }
 
 #special2{
   grid-column: 4/7;
-  grid-row: 10/16;
+  grid-row: 10/17;
+  background-color: #EDEFEE;
+  margin-right: 45px;
 }
 
 #special3{
   grid-column: 7/10;
-  grid-row: 10/16;
+  grid-row: 10/17;
+  background-color: #EDEFEE;
+  margin-right: 30px;
 }
 
 #testimonial{
@@ -165,4 +195,28 @@ footer{
 #social{
   grid-column: 7/9;
   grid-row: 1/8;
+}
+
+#bookform{
+  grid-column: 5/10;
+  grid-row: 5/20;
+
+}
+#bookform form{
+  display: table;
+}
+
+#bookform label{
+  float: left;
+  padding-right: 1rem;
+}
+
+#bookform input{
+  float: right;
+}
+
+#pagetitle{
+  grid-column: 1/12;
+  grid-row: 2/4;
+  text-align: center;
 }
